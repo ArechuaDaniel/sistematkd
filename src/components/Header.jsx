@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from '../assets/logo.jpg'
+
 
 const Header = () => {
   const logo = require.context('../assets', true);
