@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.main-slide{
+  padding: 3px;
+}
+.carousel slider-wraper{
+  width: 50%;
+}
+.carousel .thumb {
+  width: 5%;
+  height: 50px;
+}
+.carousel {
+  text-align: center;
 }
